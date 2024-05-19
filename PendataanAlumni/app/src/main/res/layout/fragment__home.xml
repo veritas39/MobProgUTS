@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Tentang Aplikasi"
+                android:textColor="#000000"
+                android:textSize="60sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Maecenas accumsan lacus vel facilisis volutpat est velit. Eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Neque egestas congue quisque egestas diam in arcu cursus. Sed vulputate mi sit amet mauris. At quis risus sed vulputate odio ut enim blandit. Nunc pulvinar sapien et ligula ullamcorper malesuada. Malesuada proin libero nunc consequat interdum. Sit amet mattis vulputate enim nulla. Orci porta non pulvinar neque laoreet. Vulputate ut pharetra sit amet aliquam id. Suspendisse sed nisi lacus sed viverra tellus. Felis bibendum ut tristique et. Enim nunc faucibus a pellentesque sit amet. Bibendum est ultricies integer quis auctor. Pellentesque habitant morbi tristique senectus et netus et. Nullam ac tortor vitae purus faucibus. Suspendisse ultrices gravida dictum fusce ut placerat orci. Nullam ac tortor vitae purus faucibus." />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Maecenas accumsan lacus vel facilisis volutpat est velit. Eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Neque egestas congue quisque egestas diam in arcu cursus. Sed vulputate mi sit amet mauris. At quis risus sed vulputate odio ut enim blandit. Nunc pulvinar sapien et ligula ullamcorper malesuada. Malesuada proin libero nunc consequat interdum. Sit amet mattis vulputate enim nulla. Orci porta non pulvinar neque laoreet. Vulputate ut pharetra sit amet aliquam id. Suspendisse sed nisi lacus sed viverra tellus. Felis bibendum ut tristique et. Enim nunc faucibus a pellentesque sit amet. Bibendum est ultricies integer quis auctor. Pellentesque habitant morbi tristique senectus et netus et. Nullam ac tortor vitae purus faucibus. Suspendisse ultrices gravida dictum fusce ut placerat orci. Nullam ac tortor vitae purus faucibus." />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
